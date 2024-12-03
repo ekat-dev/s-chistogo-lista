@@ -98,6 +98,10 @@ h1, p, ul {
   width: 200px;
 }
 
+.intro__main-text {
+  line-height: 21.6px;
+}
+
 .content-section__subtitle {
   width: 100%;
   font-family: 'EB Garamond', 'Arial', sans-serif;
@@ -130,24 +134,27 @@ h1, p, ul {
   gap: 16px;
   padding-left: 16px;
   font-size: 16px;
+  line-height: 21.6px;
 }
 
 .content-section__list-item span {
   font-weight: 700;
 }
 
-.how-to {
-  padding: 40px 20px;
+.content-section.how-to {
+  padding: 40px 20px 60px 20px;
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.card {
-  padding: 20px;
+.card, .card__author, .card__content {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.card {
+  padding: 20px;
   border-radius: 30px;
   background: rgb(52, 52, 52);
 }
@@ -171,6 +178,10 @@ h1, p, ul {
   font-size: 22px;
   font-weight: 500;
   line-height: 135%;
+}
+
+.card__text {
+  line-height: 21.6px;
 }
 
 .content-section.footer {
