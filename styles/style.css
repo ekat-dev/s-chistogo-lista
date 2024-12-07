@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 
-h1, p, ul {
+h1, h2, h3, h4, p, ul {
   margin: 0;
   padding: 0;
 }
@@ -99,6 +99,8 @@ h1, p, ul {
 
 .intro__title {
   width: 200px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .intro__main-text {
@@ -184,7 +186,7 @@ h1, p, ul {
 }
 
 .card__text {
-  line-height: 21.6px;
+  line-height: 21.55px;
 }
 
 .content-section.footer {
